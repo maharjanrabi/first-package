@@ -1,0 +1,21 @@
+{
+    "name": "rabi/hello-world",
+    "description": "My First Package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rabi Maharjan",
+            "email": "rabi.maharjan@shirantech.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "HelloWorld": "src/"
+        }
+    }
+}
